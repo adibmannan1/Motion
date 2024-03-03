@@ -1,12 +1,13 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import ImageSlider from './ImageSlider'
+// import ImageSlider from './ImageSlider'
+import ActiveSlider from './ActiveSlider'
 
 const LandingPage = () => {
     const motos = ["We Create", "Websites That", "Breathe"]
   return (
-    <div className='w-full h-screen bg-zinc-900 pt-1'>
-        <div className='textstructure mt-48 px-20'>
+    <div className='flex pt-30 justify-between items-center w-full h-screen bg-zinc-900'>
+        <div className='textstructure px-20'>
             {motos.map((moto, index) => (
                 <div key={index} className="masker">
                     <div className='w-fit flex items-end overflow-hidden'>
@@ -18,8 +19,9 @@ const LandingPage = () => {
                 </div>
             ))}
         </div>
-        <div>
-            <ImageSlider/>
+        <div className='px-20'>
+            {/* <ImageSlider/> */}
+            <ActiveSlider/>
         </div>
     </div>
   )

@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-// import ImageSlider from './ImageSlider'
-import ActiveSlider from './ActiveSlider'
+import ImageSlider from './ImageSlider'
 
 const LandingPage = () => {
     const motos = ["We Create", "Websites That", "Breathe"]
@@ -21,7 +20,7 @@ const LandingPage = () => {
         </div>
         <div className='px-20'>
             {/* <ImageSlider/> */}
-            <ActiveSlider/>
+            <ImageSlider/>
         </div>
     </div>
   )

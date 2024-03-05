@@ -26,9 +26,9 @@ function ImageSlider() {
         slidesPerView={'auto'}
         coverflowEffect={{
           rotate: 0,
-          stretch: 0,
+          stretch: -10,
           depth: 10,
-          modifier: 90,
+          modifier: -35,
         }}
         pagination={{ el: '.swiper-pagination', clickable: true }}
         navigation={{
@@ -57,12 +57,6 @@ function ImageSlider() {
 
 
         <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline"></ion-icon>
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
           <div className="swiper-pagination"></div>
         </div>
       </Swiper>

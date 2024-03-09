@@ -1,23 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
 
 @font-face {
   font-family: fg;
   src: url(./fonts/FoundersGrotesk.ttf );
 }
+
 .founders_grotesk {
   font-family: fg;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.montserrat {
-  font-family: 'Montserrat', sans-serif;
-}
 @font-face {
   font-family: nm;
   src: url(./fonts/NeueMontreal.ttf );
 }
+
 .neue_montreal {
   font-family: nm;
 }

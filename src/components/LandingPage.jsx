@@ -19,7 +19,6 @@ const LandingPage = () => {
             ))}
         </div>
         <div className='px-20'>
-            {/* <ImageSlider/> */}
             <ImageSlider/>
         </div>
     </div>

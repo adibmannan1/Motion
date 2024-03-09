@@ -3,11 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: fg;
-    src: url(./fonts/FoundersGrotesk.ttf );
+  font-family: fg;
+  src: url(./fonts/FoundersGrotesk.ttf );
 }
 .founders_grotesk {
-    font-family: fg;
+  font-family: fg;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+@font-face {
+  font-family: nm;
+  src: url(./fonts/NeueMontreal.ttf );
+}
+.neue_montreal {
+  font-family: nm;
 }
 *{
   box-sizing: border-box;
@@ -16,11 +28,8 @@
 }
 html {
   scroll-behavior: smooth;
-  }
-
-body{
- background-color: #050711;
 }
+
   .container {
   padding: 0rem;
   margin: 0 auto;

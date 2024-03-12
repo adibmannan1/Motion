@@ -231,11 +231,15 @@ html {
 
   .box-shadow{
     box-shadow:
-  0 2.8px 2.2px rgba(85, 159, 255, 0.034),
-  0 6.7px 5.3px rgba(85, 159, 255, 0.048),
-  0 12.5px 10px rgba(85, 159, 255, 0.06),
-  0 22.3px 17.9px rgba(85, 159, 255, 0.072),
-  0 41.8px 33.4px rgba(85, 159, 255, 0.086),
-  0 100px 80px rgba(85, 159, 255, 0.12)
+  -8px 2.8px 10px rgba(85, 159, 255, 0.034),
+  -8px 10px 15px rgba(85, 159, 255, 0.03),
+  -8px 20px 20px rgba(85, 159, 255, 0.05),
+  -8px 25px 20px rgba(85, 159, 255, 0.06),
+  -30px 35px 33.4px rgba(85, 159, 255, 0.06),
+  -40px 40px 120px rgba(85, 159, 255, 0.1)
+  }
+
+  .box-shadow2{
+    filter: drop-shadow(10px 10px 0px rgba(5, 7, 17, 0.2));
   }
   

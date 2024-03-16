@@ -6,24 +6,24 @@ import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 export function CrewMembers({image1,image2,image3,image4}) {
   const items = [
     {
-      className: "md:col-span-2",
+      className: "lg:col-span-2",
       image: image1,
     },
     {
-      className: "md:col-span-1",
+      className: "lg:col-span-1",
       image: image2,
     },
     {
-      className: "md:col-span-1",
+      className: "lg:col-span-1",
       image: image3,
     },
     {
-      className: "md:col-span-2",
+      className: "lg:col-span-2",
       image: image4,
     },
   ];
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+    <BentoGrid className="max-w-4xl mx-auto lg:auto-rows-[20rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

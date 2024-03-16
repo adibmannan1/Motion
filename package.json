@@ -12,7 +12,9 @@
   "dependencies": {
     "@tabler/icons-react": "^2.47.0",
     "clsx": "^2.1.0",
-    "framer-motion": "^11.0.8",
+    "framer-motion": "^11.0.13",
+    "gsap": "^3.12.5",
+    "locomotive-scroll": "^5.0.0-beta.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swiper": "^11.0.7",

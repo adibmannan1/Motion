@@ -1,8 +1,5 @@
-# React + Vite
+Link: https://moti0n.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is based on javascript and react js but I had to use Aceternity UI which is based on typescipt in next js. So one of the lessons I learned in this project is how to use tsx and jsx files together. I also learned the use of gsap and framer motion for animation.
+A glance of Motion:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

@@ -15,15 +15,10 @@ export default function Footer() {
   return (
     <footer
       className="w-full h-[20vh] lg:h-[30vh] bg-blue-800 text-[#050711] raleway text-[15px] lg:text-[20px] flex flex-col lg:flex-row justify-between py-7 px-6 lg:px-20 mt-10 lg:mt-0"
-    >
-      <div className="flex items-center mx-auto mt-2 lg:m-0">
-        <img
-          alt="Logo"
-          height="32"
-          src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg"
-          width="70"
-        />
-      </div>
+     id="footer">
+      <a href="https://www.usemotion.com/" target='_blank' className="flex items-center mx-auto mt-2 lg:m-0 text-[6vw] md:text-[2vw] font-bold">
+        Motion
+      </a>
       <div className="flex items-center justify-center space-x-4 order-3 text-center sm:order-2 sm:justify-start sm:space-x-2 sm:gap-4 lg:order-3 lg:justify-end">
         <a className="" href="#">
           Privacy

@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react'
 import design from '../images/design.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 const Eyes = () => {
   const [rotate, setRotate] = useState(0)
@@ -43,9 +45,10 @@ const Eyes = () => {
             </div>
           </div>
           <div className='absolute bottom-[15%] left-1/2 -translate-x-1/2'>
-          <button type="button" className="rounded-full bg-[#050711]  text-center  text-[#559fff] text-[12px] lg:text-[22px] font-bold uppercase raleway lg:py-3 lg:px-14 px-5">
+          <AnchorLink href="#projects"><button type="button" className="rounded-full bg-[#050711]  text-center  text-[#559fff] text-[12px] lg:text-[22px] font-bold uppercase raleway lg:py-3 lg:px-14 px-5">
               Projects
             </button>
+            </AnchorLink>
           </div>
         </div>
     </div>  

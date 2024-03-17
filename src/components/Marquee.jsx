@@ -9,6 +9,7 @@ const Marquee = () => {
             <motion.h1 initial={{x: 0}} animate={{x: "-100%"}} transition={{duration: 10, repeat: Infinity, ease: "linear"}} className='text-[25vw] -mt-3 lg:-mt-14 lg:-mb-6 leading-none founders_grotesk font-semibold'>Move N Flow</motion.h1>
             <motion.h1 initial={{x: 0}} animate={{x: "-100%"}} transition={{duration: 10, repeat: Infinity, ease: "linear"}} className='text-[25vw] -mt-3 lg:-mt-14 lg:-mb-6 leading-none founders_grotesk font-semibold'>Move N Flow</motion.h1>
             <motion.h1 initial={{x: 0}} animate={{x: "-100%"}} transition={{duration: 10, repeat: Infinity, ease: "linear"}} className='text-[25vw] -mt-3 lg:-mt-14 lg:-mb-6 leading-none founders_grotesk font-semibold'>Move N Flow</motion.h1>
+            <motion.h1 initial={{x: 0}} animate={{x: "-100%"}} transition={{duration: 10, repeat: Infinity, ease: "linear"}} className='text-[25vw] -mt-3 lg:-mt-14 lg:-mb-6 leading-none founders_grotesk font-semibold'>Move N Flow</motion.h1>
         </div>
     </div>
   )

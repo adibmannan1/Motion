@@ -20,7 +20,7 @@ const Projects = () => {
     const cards = [useAnimation(), useAnimation(), useAnimation(), useAnimation()]
 
   return (
-    <div className='w-full py-0 lg:py-10 px-6 lg:px-20 raleway'>
+    <div className='w-full py-0 lg:py-10 px-6 lg:px-20 raleway' id='projects'>
         <div className='w-full border-b-2 pb-2 lg:pb-7 mb-6 lg:mb-10 border-blue-500'>
             <h1 className='mt-16 lg:-mt-3 text-[7.5vw] lg:text-[3vw] leading-[5.5vw] lg:leading-[3.5vw] font-bold text-white'>
                 Best Projects
